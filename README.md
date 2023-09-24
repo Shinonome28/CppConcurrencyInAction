@@ -11,9 +11,9 @@ For example:
 
 ```sh
 # in build directory
-cmake -DCMAKE_TOOLCHAIN_FILE=C:/src/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-windows-static ..
+cmake -DCMAKE_TOOLCHAIN_FILE=C:/src/vcpkg/scripts/buildsystems/vcpkg.cmake ..
 ```
 
 Or you can set these cache variables in `CMakePresets.json`.
 
-Only tested under MSVC and static linked boost library.
+Only tested under MSVC.
