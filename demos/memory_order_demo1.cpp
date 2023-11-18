@@ -1,4 +1,4 @@
-// 这个demo反映了memory_order_relaxed不保证任何全局同步性
+﻿// 这个demo反映了memory_order_relaxed不保证任何全局同步性
 // 只保证在同一个线程中的同步性
 
 #include <atomic>
